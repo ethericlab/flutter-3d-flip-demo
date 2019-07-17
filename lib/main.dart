@@ -104,6 +104,7 @@ class _HomeState extends State<Home> {
                 child: _pages[position],
               );
 
+              // From page
               if (position == currentPageValue.floor()) {
                 return Transform(
                   transform: Matrix4.identity()
@@ -111,7 +112,9 @@ class _HomeState extends State<Home> {
                     ..rotateY(-pi / 16 * (currentPageValue - position)),
                   child: page,
                 );
-              } else if (position == currentPageValue.floor() + 1) {
+              }
+              // To page
+              else if (position == currentPageValue.floor() + 1) {
                 return Transform(
                   alignment: FractionalOffset.topRight,
                   transform: Matrix4.identity()
@@ -119,7 +122,9 @@ class _HomeState extends State<Home> {
                     ..rotateY(-pi / 16 * (currentPageValue - position)),
                   child: page,
                 );
-              } else {
+              }
+              // Other page (not in current view)
+              else {
                 return page;
               }
             },

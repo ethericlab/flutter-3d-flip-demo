@@ -1,16 +1,23 @@
-# flutter_3d_flip_demo
+# Flutter 3D flip sample app
 
-A new Flutter project.
+This demo shows how to use [PageView](https://api.flutter.dev/flutter/widgets/PageView-class.html) 
+and [Transform](https://api.flutter.dev/flutter/widgets/Transform-class.html) widgets to make a 3D 
+rotation effect when flipping pages.
 
-## Getting Started
+## Running the demo
 
-This project is a starting point for a Flutter application.
+- [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Open [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
+- Build and run the app on an emulator or a real device
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Nikita Kurpas - [LinkedIn](https://www.linkedin.com/in/nikita-kurpas/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<a href="https://etheric.agency"><img src="https://user-images.githubusercontent.com/2844046/60996303-a0b04e00-a354-11e9-8721-08ea067a76a5.png" alt="Etheric Agency Logo" height="150" /></a>
+
+[Etheric Agency](https://etheric.agency)
+
+## License
+
+3D Flip is available under the MIT license. See the LICENSE file for more info.
