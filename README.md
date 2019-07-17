@@ -1,5 +1,7 @@
 # Flutter 3D flip sample app
 
+<img src="https://user-images.githubusercontent.com/2844046/61403762-ab339000-a8de-11e9-9e11-4339fea3a60d.gif" height="600" />
+
 This demo shows how to use [PageView](https://api.flutter.dev/flutter/widgets/PageView-class.html) 
 and [Transform](https://api.flutter.dev/flutter/widgets/Transform-class.html) widgets to make a 3D 
 rotation effect when flipping pages.
